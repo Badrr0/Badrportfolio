@@ -1,0 +1,58 @@
+html  {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+@media (max-width:575px) {
+    body{
+        height: 100vh;
+        width: 100vh;
+    }
+}
+
+.container-parent {
+    background-color: #27445D;
+    padding-left: 0;
+    padding-right: 0;
+}
+.name {
+    color: #27445D;
+}
+.nameskills {
+   font-weight: bold;
+   margin-left: 60px;
+}
+.sectionskills {
+    font-weight: bold;
+    margin-left: 60px;
+}
+.container-skills{
+    height: 100vh;
+}
+.logos{
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.msg {
+    height: 50px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    width: 100vh;
+}
+.container-contact{
+    background-color: #497D74;
+}
+.fluid {
+    border-radius: 30px;
+}
+img {
+    border-radius: 30px;
+}
+#picme{
+   object-fit: cover;
+    height: auto;
+}
+.Contact {
+    height: 100vh;
+    width: 100vh;
+}
